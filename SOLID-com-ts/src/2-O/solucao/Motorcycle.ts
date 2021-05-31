@@ -8,7 +8,7 @@ export class MotorCycle implements IMotorcycle {
     console.log("Ligando Motor");
   }
   configure(color: string, year: number, engine: number): void {
-    console.log(`Criando uma moto com a cor ${color}, motor ${engine}, e ano ${year}`);
+    console.log(`Criando uma moto com a cor ${color}, motor ${engine} cilindradas, e ano ${year}`);
     this.startVehicle();
   }
 }
